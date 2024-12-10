@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F0F8FF"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/appicon"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:contentDescription="App Icon" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome!"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        android:textColor="#333333"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What's your name?"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textColor="#666666"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:background="@drawable/rounded_background"
+        android:padding="12dp"
+        android:layout_marginTop="30dp" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Continue"
+        android:layout_marginTop="40dp"
+        android:paddingVertical="12dp"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#205A7A"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginHorizontal="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Powered by Group 3"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:textColor="#999999"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="220dp" />
+</LinearLayout>

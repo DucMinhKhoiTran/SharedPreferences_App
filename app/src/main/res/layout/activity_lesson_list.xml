@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F8FF"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Learning HTML and CSS"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textColor="#333333"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginTop="40dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewLessons"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:background="#FFFFFF"
+        android:clipToPadding="false"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Powered by Group 3"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:textColor="#999999"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif"/>
+</LinearLayout>
